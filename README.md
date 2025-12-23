@@ -1,7 +1,7 @@
 # auto_pippety
 
 ## pipetty
-"Pipetty" is an electronic pipette of Icomes Lab Co., Ltd.. [https://www.icomes.co.jp/product/pipetty/](https://www.icomes.co.jp/product/pipetty/).  
+"Pipetty" is an electronic pipette of Icomes Lab Co., Ltd., [https://www.icomes.co.jp/product/pipetty/](https://www.icomes.co.jp/product/pipetty/).  
 The function of liquid handling (aspiration, dispensing) can be controlled through the USB or Bluetooth.
 
 ## Hardware of Pipetty
