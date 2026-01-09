@@ -6,9 +6,5 @@ The function of liquid handling (aspiration, dispensing) can be controlled throu
 
 ## Hardware of Pipetty
 In order to grasp the pipetty and push the tip disposal button by a motor, here are the parts used, as shown in the figure.  
-![pipetty](pipetty.png "pipetty")  
+![pipetty](assets/pipetty.png "pipetty")  
 The motor with the gear and gear rack is: [https://kitronik.co.uk/products/2595-linear-actuator](https://kitronik.co.uk/products/2595-linear-actuator).
-
-## Hardware of Parallel Gripper
-As for the robot arm "Ufactory Lite 6", there is an open-source parallel gripper which can be controlled by position, [OpenParallelGripper](https://github.com/hygradme/OpenParallelGripper).  
-Here we used the [XL330_version](https://github.com/hygradme/OpenParallelGripper/blob/main/XL330_version/README.md), and modified the gripper jaws to adapt to different objects, as shown in the figure, ![Modified Gripper](gripper.png "gripper").
