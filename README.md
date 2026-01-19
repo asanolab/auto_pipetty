@@ -1,4 +1,4 @@
-# auto_pippety
+# auto_pipetty
 
 ## pipetty
 "Pipetty" is an electronic pipette of Icomes Lab Co., Ltd., [https://www.icomes.co.jp/product/pipetty/](https://www.icomes.co.jp/product/pipetty/).  
