@@ -1,4 +1,5 @@
 # auto_pipetty
+This pkg provides a customized version of pipetty which is enabled to push the tip disposal button by a motor
 
 ## pipetty
 "Pipetty" is an electronic pipette of Icomes Lab Co., Ltd., [https://www.icomes.co.jp/product/pipetty/](https://www.icomes.co.jp/product/pipetty/).  
@@ -10,9 +11,11 @@ sudo chmod 666 /dev/ttyACM0
 sudo usermod -a -G dialout $USER
 ```
 
-## Hardware of Pipetty
-In order to grasp the pipetty and push the tip disposal button by a motor, here are the parts used, as shown in the figure.  
-![pipetty](assets/pipetty.png "pipetty")  
-The motor with the gear and gear rack is: [https://kitronik.co.uk/products/2595-linear-actuator](https://kitronik.co.uk/products/2595-linear-actuator).
+## Hardware of auto_pipetty
+- Parts CAD files are available here
+  - [Google drive](https://drive.google.com/drive/folders/1CdFMPOSmqitSQ_oM1WGsw9cjXzKC6Rv5?usp=drive_link)
+  - The motor with the gear and gear rack is: [https://kitronik.co.uk/products/2595-linear-actuator](https://kitronik.co.uk/products/2595-linear-actuator).
 
+assembly image   
+![pipetty](assets/pipetty.png "pipetty") 
 
