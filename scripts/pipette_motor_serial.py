@@ -5,7 +5,7 @@ from std_msgs.msg import Bool
 
 class PipetteMotorNode:
     def __init__(self):
-        # 打开串口 ttyACM1，波特率 9600
+        # open serial ttyACM1，baut rate 9600
         port = rospy.get_param("~pipette_motor_port", "/dev/ttyACM1")
         baud = int(rospy.get_param("~pipette_motor_baud", 9600))
         try:
@@ -15,15 +15,15 @@ class PipetteMotorNode:
             rospy.logerr(f"Failed to open serial port: {e}")
             exit(1)
 
-        # 创建订阅者
+        # sub
         rospy.Subscriber('/pipette_motor/trigger', Bool, self.trigger_callback)
 
     def trigger_callback(self, msg):
-        if msg.data:  # 如果收到 True，就执行动作
+        if msg.data:  # if receive True, conduct motion
             try:
                 command = '01'
                 command_byte = bytes.fromhex(command)
-                self.ser.write(command_byte)  # 发送字符 "1"
+                self.ser.write(command_byte)  # send char "1"
                 rospy.loginfo(f"Sent command to pipette motor: {command_byte} (eject tip)")
             except Exception as e:
                 rospy.logwarn(f"Failed to send command: {e}")
