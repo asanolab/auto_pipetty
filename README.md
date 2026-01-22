@@ -23,6 +23,5 @@ roslaunch auto_pipetty auto_pipetty.launch
 - The motor with the gear and gear rack: [KITRONIK-2595](https://kitronik.co.uk/products/2595-linear-actuator).
   - It is avairable from [switch-science](https://www.switch-science.com/products/8609?variant=42505484828870)
 
-assembly image   
-![pipetty](assets/pipetty.png "pipetty") 
+<img width="245" height="226" alt="Image" src="https://github.com/user-attachments/assets/b119fc60-354a-4794-bc85-b8b9293b538d" />
 
