@@ -22,6 +22,6 @@ include_directories(
 ## Install ##
 #############
 catkin_install_python(PROGRAMS
-  scripts/pipette_motor_serial.py
+  scripts/pipetty_motor_serial.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
   )
