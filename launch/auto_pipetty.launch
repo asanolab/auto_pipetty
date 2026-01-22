@@ -2,7 +2,7 @@
 
 <launch>
   <!-- pipetty -->
-  <arg name="pipetty_port"       default="/dev/pippety_pro"/>
+  <arg name="pipetty_port"       default="/dev/pipetty_pro"/>
   <arg name="pipetty_baud"       default="31520"/>
 
   <!-- pipetty_motor(arduino) -->
