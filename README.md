@@ -1,5 +1,6 @@
 # auto_pipetty
 This pkg provides a customized version of pipetty which is enabled to push the tip disposal button by a motor
+<img width="245" height="226" alt="Image" src="https://github.com/user-attachments/assets/b119fc60-354a-4794-bc85-b8b9293b538d" />
 
 ## pipetty
 "Pipetty" is an electronic pipette of Icomes Lab Co., Ltd., [https://www.icomes.co.jp/product/pipetty/](https://www.icomes.co.jp/product/pipetty/).  
@@ -23,5 +24,4 @@ roslaunch auto_pipetty auto_pipetty.launch
 - The motor with the gear and gear rack: [KITRONIK-2595](https://kitronik.co.uk/products/2595-linear-actuator).
   - It is avairable from [switch-science](https://www.switch-science.com/products/8609?variant=42505484828870)
 
-<img width="245" height="226" alt="Image" src="https://github.com/user-attachments/assets/b119fc60-354a-4794-bc85-b8b9293b538d" />
 
