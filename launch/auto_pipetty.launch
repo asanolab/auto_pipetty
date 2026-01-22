@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<launch>
+  <!-- pipetty -->
+  <arg name="pipetty_port"       default="/dev/pipetty_pro"/>
+  <arg name="pipetty_baud"       default="31520"/>
+
+  <!-- pipetty_motor(arduino) -->
+  <arg name="pipetty_motor_port" default="/dev/pipetty_motor"/>
+  <arg name="pipetty_motor_baud" default="9600"/>
+
+  <!-- pipetty_node -->
+  <node pkg="pipetty_interface" type="pipetty_serial.py" name="pipetty_node" output="screen" respawn="true">
+    <param name="port" value="$(arg pipetty_port)"/>
+    <param name="baud" value="$(arg pipetty_baud)"/>
+  </node>
+
+  <!-- pipetty_motor_node -->
+  <node pkg="auto_pipetty" type="pipetty_motor_serial.py" name="pipetty_motor_node" output="screen" respawn="true">
+    <param name="port" value="$(arg pipetty_motor_port)"/>
+    <param name="baud" value="$(arg pipetty_motor_baud)"/>
+  </node>
+
+</launch>

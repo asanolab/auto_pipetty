@@ -6,9 +6,15 @@ This pkg provides a customized version of pipetty which is enabled to push the t
 The function of liquid handling (aspiration, dispensing) can be controlled through the USB or Bluetooth.
 
 ## Setup 
+set udev rules for devices
+  ```
+  sudo cp config/81-pipetty.rules /etc/udev/rules.d/.
+  sudo udevadm control --reload
+  ```
+
+## Usage
 ```
-sudo chmod 666 /dev/ttyACM0
-sudo usermod -a -G dialout $USER
+roslaunch auto_pipetty auto_pipetty.launch
 ```
 
 ## Hardware of auto_pipetty
