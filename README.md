@@ -11,6 +11,11 @@ sudo chmod 666 /dev/ttyACM0
 sudo usermod -a -G dialout $USER
 ```
 
+## Usage
+```
+roslaunch auto_pipetty auto_pipetty.launch
+```
+
 ## Hardware of auto_pipetty
 - Parts CAD files are available here
   - [Google drive](https://drive.google.com/drive/folders/1CdFMPOSmqitSQ_oM1WGsw9cjXzKC6Rv5?usp=drive_link)
