@@ -1,5 +1,5 @@
 # auto_pipetty
-This pkg provides a customized version of pipetty which is enabled to push the tip disposal button by a motor
+This pkg provides a customized version of pipetty which is enabled to push the tip disposal button by a motor  
 <img width="245" height="226" alt="Image" src="https://github.com/user-attachments/assets/b119fc60-354a-4794-bc85-b8b9293b538d" />
 
 ## pipetty
