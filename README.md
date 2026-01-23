@@ -25,3 +25,5 @@ roslaunch auto_pipetty auto_pipetty.launch
 
 <img width="789" height="194" alt="Image" src="https://github.com/user-attachments/assets/641e951b-1143-4530-aa66-eb995e496c0d" />
 
+## Acknowledgement
+auto_pipetty is desgined, build and programmed by [@WSY-symxmyz](https://github.com/WSY-symxmyz) (Shuangyu WANG)
